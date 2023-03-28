@@ -75,4 +75,5 @@ q로 나가기
 집에가서 내폴더로 복사하려할때
 cd ..
 cd test
-git clone  https://github.com/ssuk80/frontend_webcoding.git - 집에가면 일단 받고 다시 수정 
+git pull - 집에가면 일단 받고 다시 수정  
+파일이 수정되고 올릴때 풀로 받고 다시 올리기
