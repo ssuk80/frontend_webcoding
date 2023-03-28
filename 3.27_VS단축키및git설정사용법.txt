@@ -1,0 +1,78 @@
+vs코드 단축키및 알아야될 사항
+
+html파일을 만들고  ! teb - html5 기본설정값이 표시됨
+컨트롤 쉼표 -설정창 열기
+태그 엔터 치면 자동완성
+알트+시프트+f 코드정렬해줌
+라이브서버 설치하기
+들여쓰기 tab size 2로 설정해서 코드작성하기
+
+
+
+
+
+
+git
+홈페이지들어가서 
+64-bit Git for Windows Setup. 설치
+
+설치하면서 
+창옵션에서
+비주얼스튜디오 코드로 선택(3번쨰)
+그 다음 옵션도 2번째 main
+나머지는 다 넥스트
+
+
+
+
+잘 깔렸나 확인하려면 
+왼도우키 + r
+cmd 치고 
+git --Version 치면 잘 깔렸나 알 수 있음
+
+
+
+https://github.com/
+
+ ctrl + ~ 치면 터미널창 띄운 후에 아래 코드는 프로젝트 시작시  
+ 딱 한번만 저장해 놓으면 됌
+ 
+ 유저이름과 유저이메일
+
+
+Microsoft Windows [Version 10.0.19044.1706]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\이은숙\frontand_webcoding>git config --global -l
+core.editor="C:\Users\com\AppData\Local\Programs\Microsoft VS Code\bin\code" --wait
+
+C:\이은숙\frontand_webcoding>git config --global user.name 'ssuk80'
+
+C:\이은숙\frontand_webcoding>git config --global user.email 'xkftjs@gmail.com'
+
+C:\이은숙\frontand_webcoding>git config --global -l
+core.editor="C:\Users\com\AppData\Local\Programs\Microsoft VS Code\bin\code" --wait
+user.name='ssuk80'
+user.email='xkftjs@gmail.com'
+
+
+
+git log - 내가 다 해놓은걸 볼수 있다
+
+
+git init - 시작할때 추적관리 시작
+git add . - 모든 파일을 올릴준비
+git commit -m "커밋설명" - 커밋해주고
+git status -  보여주는거 잘됐나 확인도 해주고
+git remote add origin https://github.com/ssuk80/frontend_webcoding.git - 경로를 넣는다 
+git remote -v - 연결이 잘 됐나 확인
+git push origin main - 깃 허브에 올림
+
+
+
+q로 나가기
+
+집에가서 내폴더로 복사하려할때
+cd ..
+cd test
+git clone  https://github.com/ssuk80/frontend_webcoding.git - 집에가면 일단 받고 다시 수정 
