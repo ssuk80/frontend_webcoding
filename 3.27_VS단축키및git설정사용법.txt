@@ -93,5 +93,5 @@ cd test
 git pull - 집에가면 일단 받고 다시 수정  
 파일이 수정되고 올릴때 풀로 받고 다시 올리기
 
-cmd 디폴트로 바꾸기
+터미널파워쉘로 되어있을경우 cmd 디폴트로 바꾸기
 + 화살표 select default profile 첫번째 cmd 로 바꿈
