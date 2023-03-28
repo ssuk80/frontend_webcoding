@@ -56,9 +56,16 @@ user.email='xkftjs@gmail.com'
 
 git status
 git init
-git add 
+git add .
 
 git status -  보여주는거 잘됐나
 git log - 내가 다 해놓은걸 볼수 있다
 $ git push origin 링크 - - 나의 경로를 넣는다
 git push origin main- 올리기
+
+q로 나가기
+
+집에가서 내폴더로 복사하려할때
+cd ..
+cd test
+git clone 주소넣기
