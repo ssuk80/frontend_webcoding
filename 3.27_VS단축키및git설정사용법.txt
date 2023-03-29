@@ -6,6 +6,8 @@ html파일을 만들고  ! teb - html5 기본설정값이 표시됨
 알트+시프트+f 코드정렬해줌
 라이브서버 설치하기
 들여쓰기 tab size 2로 설정해서 코드작성하기
+주석 : ctrl + / 
+css쓸때 ; 넘기고 자동줄내림 : ctrl + enter
 
 
 <!-- 7. VS Code 단축키 정리
@@ -23,6 +25,14 @@ html파일을 만들고  ! teb - html5 기본설정값이 표시됨
   12) 다중 선택: ctrl + d 또는 ctrl + alt + up/down 또는 alt + 마우스 클릭/드래그
   13) 라인 삭제: ctrl + shift + k
 -->
+
+
+
+
+
+
+
+
 
 
 
@@ -88,8 +98,9 @@ git push origin main - 깃 허브에 올림
 q로 나가기
 
 집에가서 내폴더로 복사하려할때
-cd ..
-cd test
+맨처음일때는 clone 로 받고 
+그다음부터는 pull
+
 git pull - 집에가면 일단 받고 다시 수정  
 파일이 수정되고 올릴때 풀로 받고 다시 올리기
 
