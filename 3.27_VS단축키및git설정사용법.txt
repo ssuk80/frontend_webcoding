@@ -8,7 +8,7 @@ html파일을 만들고  ! teb - html5 기본설정값이 표시됨
 들여쓰기 tab size 2로 설정해서 코드작성하기
 주석 : ctrl + / 
 css쓸때 ; 넘기고 자동줄내림 : ctrl + enter
-
+설정 : ctrl + ,
 
 <!-- 7. VS Code 단축키 정리
   1) 사이드 바 열고 닫기: ctrl + b
