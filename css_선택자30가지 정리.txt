@@ -1,0 +1,44 @@
+반드시 기억해야 하는 CSS 선택자 30개
+*
+#x
+.x
+x y
+x
+x:link x:visited 
+x+y x요소 바로뒤 요소
+x>y 직계자식만
+x~y 직계자식 모두
+x[속성] x에 속성들만
+a[href="주소"]주소가 연결된 앵커태그
+a[href*="tuts"]tuts가포함된 앵커태그를 찾아라
+a[href^="http"] 속성중에 http라는 아이를 다른 url으로
+a[href$=".jpg"] jpg로 끝나는 속성
+a[data-*="foo"] data-그리고 이름을 정해준다 
+a[data-info~="값"] 마크업에 class 대신 data-info="값"
+
+x:checked 
+예input[type="radio"]:checked
+ 
+x:hover
+
+x:focus 
+예x:focus:not(input[readonly])readonly 속성값을 갖는 input는 제외하라
+x:not(선택자)
+
+p::first-line 첫번째 글자
+p::first-letter 첫번째 라인
+x::after
+x::before contents:"" 컨텐츠가 꼭 온다. 
+x:nth-child()
+x:nth-last-child(2)끝에서2번째
+X:nth-of-type(n)type타입중에 
+X:nth-last-of-type(n)마지막 타입에서 몇번째
+X:last-child
+X:only-child
+X:only-of-type
+X:first-of-type
+
+
+
+
+inherit inheri inherit
