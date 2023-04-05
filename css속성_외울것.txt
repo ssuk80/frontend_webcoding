@@ -1,0 +1,27 @@
+background-attachment: fixed;  이미지가 뷰포트에 고정, 스크롤 없음 기본값은 scroll
+position: static; - 기본값 위치없음
+box-sizing: border-box; 기본값은 content-box
+text-decoration : line-through 가운데 선있는거
+position: fixed; 뷰포트기준으로 위치함
+z-index: 999; 높을수록 위에쌓임
+
+white-space: nowrap; 감싸지 않는다
+text-overflow: ellipsis; 말줄임 효과
+display: -webkit-box;
+ -webkit-box-orient: vertical; /* 영역 박스 안의 내용을 세로로 배치 */
+-webkit-line-clamp: 2; /* 영역 박스 안 내용의 최대 라인수 */
+
+
+display: flex; 오른쪽정렬
+flex-direction : row 기본값 왼쪽에서 오른쪽
+flex-direction: row-reverse 
+flex-direction:column 
+flex-direction:column-reverse
+flex-wrap; nowrap 이 기본값 
+flew-wrap: wrap  이미지를 감싸는 사이즈가 달라지지않고 유지시켜줌
+정렬 기준은 row 냐 column 에따라 틀려짐
+justify-content:flex-start 
+justify-content:flex-end
+justify-content:center
+justify-content:space-beween
+justify-content:space-around
