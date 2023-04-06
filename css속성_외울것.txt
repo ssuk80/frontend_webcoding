@@ -26,3 +26,17 @@ justify-content:center
 justify-content:space-beween
 justify-content:space-around
 justify-content:space-evenly
+align-content :stretch ; 기본값 여러줄있을때 세로정렬
+align-items 한개만 있을때 세로정렬 
+align-items:flex-start,flex-end,center,space-beween, space-around 등도 있음
+flex-grow:0; 이 기본값 증가너비
+flex-shrink:1; 이 기본값 감소너비
+flex-basis:auto;  배분전 기본 너비
+align-self:flex-end 아이템 하나만 움직여서 이동가등
+basis를 0으로 잡고 grow로 영역을 나눠는 값으로 실무에서 많이씀
+transition-property : all 기본값
+transition-duration (지속시간)
+
+
+
+https://flexboxfroggy.com/ flex 개념잡으려고 하는 게임 연습하자!
