@@ -23,17 +23,19 @@ input, select {
 .s_font {
   font-size: 11px;
 }
+
+.margin_t10 {
+  margin-top: 10px;
+}
+
 /* 헤더 영역 */
 header {
   width: 100%;
-  background-color: orange;
 }
 header .top {
   max-width: 768px;
   height: 124px;
   margin: 0 auto;
-  background-color: beige;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,7 +45,8 @@ header .top {
 #container {
   max-width: 768px;
   margin: 0 auto;
-  height: 996px;
+  /* height: 996px; */
+  height: 1010px;
 }
 #container .section-input {
   width: 460px;
@@ -85,34 +88,67 @@ span.essential {
 .birthday select { margin: 0 10px;}
 
 .input-group-row input.input_p_number {
-   width:295px;
+   width:300px;
+   float: left;
+   margin: 10px 10px 0 0;
 }
 
 
-button > span {
-  
+button.btn_certification {
+  margin-top: 10px;
+  width: 150px;
   display:block;
-  padding:10px 30px;
+  padding:16px 30px;
   background-color: rgb(4, 208, 7);
   color: #fff;
   text-align: centers;
   font-weight: bold;
+  border: 0;
 
 }
+
+p.signup {
+  padding: 5px 0;
+}
+
+
+button.btn_signup {
+  margin-top: 10px;
+  width: 100%;
+  display:block;
+  padding:16px 30px;
+  background-color: rgb(4, 208, 7);
+  color: #fff;
+  text-align: centers;
+  font-weight: bold;
+  border: 0;
+
+}
+
 
 /* 푸터 영역 */
 footer {
   width: 100%;
-  background-color: cadetblue;
 }
+
 footer .bottom {
   max-width: 768px;
   height: 83px;
   margin: 0 auto;
-  background-color: burlywood;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.bt-menu {
+  font-size: 11px;
+  height: 30px;
+  line-height: 30px;
+}
+.bt-menu strong {
+  font-weight: bold;
+}
+.copyright {
+  font-size: 11px;
 }
