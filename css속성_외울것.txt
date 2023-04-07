@@ -36,7 +36,7 @@ align-self:flex-end 아이템 하나만 움직여서 이동가등
 basis를 0으로 잡고 grow로 영역을 나눠는 값으로 실무에서 많이씀
 transition-property : all 기본값
 transition-duration (지속시간)
-
+transform
 
 
 https://flexboxfroggy.com/ flex 개념잡으려고 하는 게임 연습하자!
