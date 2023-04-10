@@ -1,0 +1,9 @@
+
+라이브러리 사이트
+
+
+에니메이션 라이브러리
+https://animate.style/
+
+트랜지션 커브만드는 
+https://cubic-bezier.com/

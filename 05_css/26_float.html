@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .header {
+      width: 100%;
+      height: 50px;
+      background-color: aquamarine;
+    }
+    .leftmenu {
+    width: 20%;
+    height:400px;
+    background-color: royalblue;
+    float: left;
+
+    }
+    .right {
+    width: 80%;
+    height: 400px;
+    background-color: coral;
+    float: left;
+    }
+    .footer {
+      width: 100%;
+      height: 100px;
+      background-color: gray;
+      /* 문제 해결방법 1:이전 float 해제 */
+      /* clear:both; */
+    }
+
+    .section {
+       /* 문제 해결방법 2:부모요소에 overflow:hidden */
+       overflow:hidden;
+    }
+  </style>
+</head>
+<body>
+  <!-- float를 써서 레이아웃 잡기 옛날방식(지양) -->
+  <div class="header"></div>
+  <div class="section">
+    <div class="leftmenu"></div>
+    <div class="right"></div>
+  </div>
+  <div class="footer"></div>
+
+  <h2>원래 float 용도로 사용하는 것은 ok</h2>
+  <img src="http://via.placeholder.com/300x200" alt="sample" style="float:left;">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+  Laudantium amet reprehenderit aliquid ea, molestias nisi molestiae commodi, 
+  quibusdam soluta nulla possimus unde animi a sequi. Consectetur dolores suscipit nisi quam.
+</body>
+</html>
