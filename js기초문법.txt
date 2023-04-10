@@ -7,3 +7,4 @@ class 대문자로 시작함 PascalCase
 변수 중복선언이 불가하다.
 let 값의 재할당 가능
 const 값의 재할당 불가
+
