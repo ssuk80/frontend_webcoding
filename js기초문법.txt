@@ -1,3 +1,10 @@
+// 이벤트 종류: https://www.w3schools.com/jsref/dom_obj_event.asp
+
+// HTML DOM 속성/메소드: https://www.w3schools.com/jsref/dom_obj_document.asp
+
+
+
+
 class 대문자로 시작함 PascalCase
 변수 - 그릇이다. 데이터 저장그릇
 = 기호는 값이 아니라 저장한다 할당한다 대입한다
@@ -8,3 +15,5 @@ class 대문자로 시작함 PascalCase
 let 값의 재할당 가능
 const 값의 재할당 불가
 
+typeof 데이터타입을 알려줌
+데이터 나열에는 [ ]를 쓴다
