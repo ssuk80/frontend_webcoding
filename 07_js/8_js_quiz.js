@@ -123,7 +123,7 @@ boxEl.addEventListener('click', function(){
 // 위 2개의 요소에 JS로 class="hello"를 추가하시오!
 const spanEls = document.querySelectorAll('span');
 spanEls.forEach(function(spanEl) {
-  spanEl.classList.add('hello')
+  spanEl.classList.add('hello');
   });
 
 // Q20
