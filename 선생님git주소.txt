@@ -1,5 +1,18 @@
 일단 다른 새창을 연다 
 뉴 윈도우로..
-선생님 폴더를 찾아서 연다
-그리고 full로 받는다.
-git clone https://github.com/geoblo/frontend-react-study.git
+ctrl + shift p (선생님 폴더를 찾아서 연다) 에서
+git clone 검색을 한다
+https://github.com/geoblo/starbucks 선생님 주소넣기
+
+그리고 그 다음부터 full로 받는다.
+
+
+
+
+https://github.com/geoblo/frontend-react-study
+
+
+
+
+
+
