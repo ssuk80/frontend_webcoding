@@ -38,7 +38,7 @@ function nextSlide() {
   // current 값이 2보다 작으면 다음 인덱스로
   // 그렇지 않으면(마지막 이미지이므로) 첫번째 인덱스로
 
-  if (current < slides.length - 1){ //slides.length:갯수보다1큰거 3개니깐(0,1,2) 3
+  if (current < slides.length - 1){ //slides.length 슬라이드 갯수
     current = current + 1;
   } else {
     current = 0 ; //마지막 이미지일때 첫번째로 보내라
