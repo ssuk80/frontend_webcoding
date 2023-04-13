@@ -1,1 +1,5 @@
 https://code.tutsplus.com/ko/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+
+
+돔 도큐먼트 다음에 쓸수있는 요소들
+https://www.w3schools.com/jsref/dom_obj_all.asp
