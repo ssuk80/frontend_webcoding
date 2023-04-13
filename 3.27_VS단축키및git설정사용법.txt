@@ -1,4 +1,4 @@
-vs코드 단축키및 알아야될 사항
+vs코드 단축키 및 알아야될 사항
 
 html파일을 만들고  ! teb - html5 기본설정값이 표시됨
 설정창(settings)열기 : ctrl + , 
@@ -9,7 +9,8 @@ html파일을 만들고  ! teb - html5 기본설정값이 표시됨
 주석 : ctrl + / 
 css쓸때 ; 넘기고 자동줄내림 : ctrl + enter
 설정 : ctrl + ,
-터미널창열기 ctrl + ~
+터미널창 열기 ctrl + ~
+
 <!-- 7. VS Code 단축키 정리
   1) 사이드 바 열고 닫기: ctrl + b
   2) 빠른 열기(파일이나 기호 검색): ctrl + p

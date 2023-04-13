@@ -55,3 +55,16 @@
   그러면 git에서 해당 폴더와 파일을 무시함
 
 10번 이 파일을 넣어줘야함 
+
+
+
+
+폴더 내려받기 clone 방법
+
+일단 다른 새창을 연다 
+뉴 윈도우로..
+ctrl + shift p (선생님 폴더를 찾아서 연다) 에서
+git clone 검색을 한다
+https://github.com/geoblo/starbucks 주소넣기
+받을 위치를 선택한다.
+그리고 그 다음부터 full로 받는다.

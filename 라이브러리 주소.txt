@@ -3,7 +3,23 @@
 
 
 에니메이션 라이브러리
-https://animate.style/
+https://animate.style
 
-트랜지션 커브만드는 
-https://cubic-bezier.com/
+트랜지션 커브만드는 사이트
+https://cubic-bezier.com
+
+파비콘 만들어주는 사이트
+favicon.ico만들기 :http://iconifier.net
+
+구글 폰트사이트 - url 주소 따다가 붙여놓고 쓸수있다. (css스타일에도 적용해야함)
+https://fonts.google.com/
+
+
+구글 아이콘 사이트
+https://fonts.google.com/icons
+
+meterial icons로 바꾸기 
+깃허브 래포선택
+<link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet"> 링크걸어서 쓰기
+아이콘은 class="아이콘이름" 으로 넣기
