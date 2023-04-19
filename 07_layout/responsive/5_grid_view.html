@@ -44,8 +44,13 @@
     .col-12 { flex: 12; } */
 
   /* 모바일 */
-  @media screen {
-    
+  @media screen and (max-width:768px) {
+    .row {
+      flex-direction: column;
+    }
+    [class*="box col-3"] {
+      width: 100%; /*  전체 선택자 모두 선택 */
+    }
   }
   </style>
 </head>

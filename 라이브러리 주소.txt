@@ -1,4 +1,13 @@
 
+깃 비번
+ssuk80
+xkf4728695!
+
+
+피그마 
+ssuk80
+
+
 라이브러리 사이트
 
 
@@ -13,9 +22,7 @@ favicon.ico만들기 :http://iconifier.net
 
 구글 폰트사이트 - url 주소 따다가 붙여놓고 쓸수있다. (css스타일에도 적용해야함)
 https://fonts.google.com/
-깃 비번
-ssuk80
-xkf4728695!
+
 
 구글 아이콘 사이트
 https://fonts.google.com/icons
