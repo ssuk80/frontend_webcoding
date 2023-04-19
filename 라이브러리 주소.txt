@@ -13,7 +13,9 @@ favicon.ico만들기 :http://iconifier.net
 
 구글 폰트사이트 - url 주소 따다가 붙여놓고 쓸수있다. (css스타일에도 적용해야함)
 https://fonts.google.com/
-
+깃 비번
+ssuk80
+xkf4728695!
 
 구글 아이콘 사이트
 https://fonts.google.com/icons
@@ -29,5 +31,16 @@ js라이브러리
 https://cdnjs.com/libraries/gsap
 
 
-swiperjs 라이브러리
+swiperjs 라이브러리 ( 스타벅스 프로모션)
 https://swiperjs.com/
+
+GSAP 라이브러리 (스타벅스 메인 비주얼)
+// gsap.to(요소, 지속시간, 옵션: {})
+https://greensock.com/docs/v3/GSAP/gsap.to()
+
+스크롤 매직 라이브러리 (스타벅스 스크롤 내릴때 실행되는 )
+https://cdnjs.com/libraries/ScrollMagic
+
+호스팅 배포
+https://www.netlify.com/
+https://app.netlify.com/
