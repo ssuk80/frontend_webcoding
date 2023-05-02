@@ -51,3 +51,8 @@ https://cdnjs.com/libraries/ScrollMagic
 호스팅 배포
 https://www.netlify.com/
 https://app.netlify.com/
+
+index.html로 파일명을 바꿔서 올리기
+
+모달창만들기
+http://yoonbumtae.com/?p=3632
