@@ -83,10 +83,10 @@
   num1 = 10;
 
   num1--; //num1은 num1-1;
-  document.write(num1,'<br>');
+  document.write(num1,'<br>');//9
 
   num1++; //num1은 num1+1;
-  document.write(num1,'<br>');
+  document.write(num1,'<br>');//11
 
 
   //주의!
@@ -94,10 +94,10 @@
   num2 = 20;
   result = num2++;// result = num2; num2 + 1;
 
-  document.write(result,' ',num2,'<br>');
+  document.write(result,' ',num2,'<br>');//20,21
 
   result = ++num2;// num2 = num2 + 1; result = num2;
-  document.write(result,' ',num2,'<br>');
+  document.write(result,' ',num2,'<br>');//22 22
 
   
   //퀴즈
@@ -106,7 +106,8 @@
   result = ++num1 + num2--;
   //result num1num2에 저장된 값은?
   //순서대로 써보시오
-
+  //11 + 20
+  document.write (result,' ',num1,' ' ,num2,'<br>');//31,11,19
   </script>
 </head>
 <body>
