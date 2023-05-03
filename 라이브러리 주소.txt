@@ -51,11 +51,3 @@ https://cdnjs.com/libraries/ScrollMagic
 호스팅 배포
 https://www.netlify.com/
 https://app.netlify.com/
-
-index.html로 파일명을 바꿔서 올리기
-
-모달창만들기
-http://yoonbumtae.com/?p=3632
-
-변환파일 만들어주는 사이트 이미지큰거 webp으로 용량줄이기
-https://convertio.co/kr/download/01ade86c074c33c625d1a53f453f9fc8e68302/
