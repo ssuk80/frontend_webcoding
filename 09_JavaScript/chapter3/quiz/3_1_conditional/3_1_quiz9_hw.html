@@ -20,8 +20,36 @@
     // 3) 돈이 모자랄 때 에러 메시지 출력 후 새로고침(location.reload();)
 
     const money = Number(prompt('돈을 넣어주세요.', '0'));
-    let change = 0; // 거스름돈
+    const choiceSnack = prompt ('허니버터, 칸쵸, 프링글스 중 하나의 과자를 입력하세요!','');
+     
+    let snack
+    let honeyButter = '허니버터';
+    let canCho = '칸쵸';
+    let prinGles = '프링글스';
 
+    let change = 0; // 거스름돈
+    
+
+    honeyButter = money - 1300;
+    canCho = money - 1500;
+    prinGles = money - 3000;
+
+    if (snack === honeyButter || canCho || prinGles) {
+      
+      }
+      else {
+      document.alert('에러입니다.');
+      location.reload();
+
+    };
+
+    document.write ('과자 종류'+ snack ,'거스름돈'+ moneyChange);
+
+    // } else {
+    //   // location.reload();
+    //   document.write('에러입니다.')
+    // }
+    // document.write ('내가뽑은과자' + snack , '거스름돈' + change);
     // 풀이
     
   </script>

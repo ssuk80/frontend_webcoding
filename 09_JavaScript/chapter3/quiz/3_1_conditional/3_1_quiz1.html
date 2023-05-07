@@ -13,12 +13,14 @@
     // 풀이1
     const a = prompt('정수를 입력하세요','0');
     
-    if (a >= 50) {
-      document.write ('50 이상','<br>');
-    } else { 
-      document.write ('50 이하','<br>');
-    }
+    // if (a >= 50) {
+    //   document.write ('50 이상','<br>');
+    // } else { 
+    //   document.write ('50 이하','<br>');
+    // }
 
+    const result = a >= 50 ? '50 이상' : '50 이하'
+    document.write (result);
 
    
   </script>

@@ -14,7 +14,24 @@
     // (점수가 0미만 100초과이면 "에러입니다." 라는 alert창을 띄우세요.)
 
     // 풀이3
-    
+
+    let grade = Number(prompt('몇학년입니까?', ''));
+    let score = Number(prompt('점수를 입력하세요',''));
+
+    if (grade <= 3) {
+      let result = score >= 60 ? '합격' : '불합격';
+      document.write(result);
+    } else if (score < 0 || score > 100) {
+      alert ('에러입니다.');
+    }
+
+    if (grade >= 4 && grade <= 6) {
+      let result = score >= 70 ? '합격' : '불합격';
+      document.write(result);
+    } else if (score < 0 || score > 100) {
+      alert ('에러입니다.');
+    }
+
   </script>
 </head>
 <body>
