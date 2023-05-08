@@ -15,22 +15,40 @@
 
     // 풀이3
 
-    let grade = Number(prompt('몇학년입니까?', ''));
-    let score = Number(prompt('점수를 입력하세요',''));
+    // let grade = Number(prompt('몇학년입니까?', ''));
+    // let score = Number(prompt('점수를 입력하세요',''));
 
-    if (grade <= 3) {
-      let result = score >= 60 ? '합격' : '불합격';
-      document.write(result);
-    } else if (score < 0 || score > 100) {
-      alert ('에러입니다.');
-    }
+    // if (grade <= 3) {
+    //   let result = score >= 60 ? '합격' : '불합격';
+    //   document.write(result);
+    // } else if (score < 0 || score > 100) {
+    //   alert ('에러입니다.');
+    // }
 
-    if (grade >= 4 && grade <= 6) {
-      let result = score >= 70 ? '합격' : '불합격';
-      document.write(result);
-    } else if (score < 0 || score > 100) {
-      alert ('에러입니다.');
+    // if (grade >= 4 && grade <= 6) {
+    //   let result = score >= 70 ? '합격' : '불합격';
+    //   document.write(result);
+    // } else if (score < 0 || score > 100) {
+    //   alert ('에러입니다.');
+    // }
+
+    //선생님 코드
+    const grade = Number(prompt('학년?', '1'));
+    const score = Number(prompt('점수?', '0'));
+    let msg = '에러입니다.';
+
+    if (score < 0 || score > 100) {
+      alert(msg);
+    } else { // 점수가 0이상 100이하인 경우
+      if ((grade >= 1 && grade <= 3 && score >= 60) ||
+          (grade >= 4 && grade <= 6 && score >= 70)) {
+        msg = '합격';
+      } else {
+        msg = '불합격';
+      }
     }
+    document.write(msg);
+
 
   </script>
 </head>

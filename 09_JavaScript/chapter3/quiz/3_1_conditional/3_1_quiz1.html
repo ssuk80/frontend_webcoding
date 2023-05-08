@@ -11,18 +11,27 @@
     // 결과는 "50 이상" 혹은 "50 미만" 으로 브라우저에 출력하세요.
 
     // 풀이1
-    const a = prompt('정수를 입력하세요','0');
-    
+    //선생님 코드
+    const num = prompt('정수를 입력하세요','0');
+    let msg = '50미만';
+
+    if (num >= 50){
+      msg = '50 이상'
+    }
+    document.write (msg);
+
     // if (a >= 50) {
     //   document.write ('50 이상','<br>');
     // } else { 
     //   document.write ('50 이하','<br>');
     // }
 
-    const result = a >= 50 ? '50 이상' : '50 이하'
-    document.write (result);
+    // const result = num >= 50 ? '50 이상' : '50 이하'
+    // document.write (result);
 
    
+  
+
   </script>
 </head>
 <body>

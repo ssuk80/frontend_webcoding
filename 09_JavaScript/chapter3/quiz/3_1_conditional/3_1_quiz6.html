@@ -12,25 +12,25 @@
 
     // 풀이6
     const subject = prompt('과목을 입력하세요','');
-    let number;
+    let code;
     switch (subject) {
       case '수학':
-      number = '01';
+        code = '01';
         break;
-        case '영어':
-        number = '02';
+      case '영어':
+        code = '02';
         break;
-        case '국어':
-        number = '03';
+      case '국어':
+        code = '03';
         break;
-        case '국사':
-        number = '04';
+      case '국사':
+        code = '04';
         break;
       default:
-        number = '00';
+        code = '00';
         break;
     }
-    document.write(number);
+    document.write(subject +'과목코드:' + code);
 
   </script>
 </head>

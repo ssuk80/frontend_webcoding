@@ -25,17 +25,21 @@
     // 풀이7
     let browser = prompt('어떤 브라우저를 사용중이십나까?','');
 
+    //선생님 코드
     if (browser === 'Edge'){ 
       alert ('Edge를 사용하고 계시네요!');
-    } else if (browser === 'Chrome','Firefox','Safari','Opera'){
-      alert ('저희 서비스가 지원하는 브라우저를 사용하고 계시네요.');
+    } else if (
+      browser === 'Chrome'||
+      browser ==='Firefox'||
+      browser ==='Safari'||
+      browser ==='Opera'
+    ) {
+      alert ('저희 서비스가 지원하는 브라우저를 사용하고 계시네요.');   
     } else {
-      alert('현재 페이지가 괜찮아 보이길 바랍니다!'); //마지막이 않됨
+      alert('현재 페이지가 괜찮아 보이길 바랍니다!');
     }
-    document.write (browser);
 
 
-   
   </script>
 </head>
 <body>

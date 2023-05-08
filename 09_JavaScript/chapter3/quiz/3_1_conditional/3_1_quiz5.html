@@ -12,15 +12,30 @@
 
     // 풀이5
     // 주의! 덧셈을 하려면 숫자로 변환해 줄 것!!
-    let num1 = Number(prompt('숫자를 입력하세요', ''));
-    let num2 = Number(prompt('숫자를 입력하세요', ''));
-    let num3 = Number(prompt('숫자를 입력하세요', ''));
+    let num1 = Number(prompt('정수를 입력하세요', '0'));
+    let num2 = Number(prompt('정수를 입력하세요', '0'));
+    let num3 = Number(prompt('정수를 입력하세요', '0'));
     
     //최대값과 최소값 구하는법을 모르겠음!
-    let plus = num1 + num2 + num3;
-    let average = plus/3;
+    //최대값
+    let max = num1;
+    if (max < num2) max = num2;
+    if (max < num3) max = num3;
 
-    document.write ('합계' + plus ,'<br>', '평균' + average);
+    // max = Math.max (num1,num2,num3);
+    // 최소값
+    let min = num1;
+    if (min > num2) min = num2;
+    if (min > num3) min = num3;
+    // min = Math.min (num1,num2,num3);
+    const sum = num1 + num2 + num3;
+    const avg = sum / 3;
+
+    document.write (`최대값: ${max}<br>`);
+    document.write (`최소값: ${min}<br>`);
+    document.write (`합계: ${sum}<br>`);
+    document.write (`평균: ${avg}<br>`);
+    
     
   </script>
 </head>
