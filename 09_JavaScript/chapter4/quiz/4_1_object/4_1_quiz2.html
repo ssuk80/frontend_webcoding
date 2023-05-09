@@ -24,11 +24,15 @@
       hobby:['캘리그라피','보석십자수','스노우보드'],
       eat: function(){
         document.write(this.name + '이가 먹습니다. 아~맛있다 ');
+      },
+      speak:function() {
+        document.write(this.name + '이가 이야기합니다. 졸립다 ');
       }
     }
 
     document.write('이름:'+ person.name ,'<br>','나이:'+ person.age ,'<br>','성별:'+ person['gender'] , '<br>' ,'취미:'+ person.hobby, '<br>');
     person.eat();
+    person.speak();
 
   </script>
 </head>
