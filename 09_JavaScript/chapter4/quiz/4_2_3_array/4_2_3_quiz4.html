@@ -10,20 +10,41 @@
     // 배열에서 최대값, 최소값 구하기(여러가지 방법 존재)
     // 힌트: for문 또는 sort() 사용
 
+    // 풀이4 - 1
+    
     const points = [40, 100, 1, 5, 25, 10];
-    points.sort(function(a, b) { return a - b; });
-    document.write(points[0],' ',points[5]);
-    
-    // for (let i = 0; i < points.length; i++) {
-    // }
-   
-    
-   
-   
 
-    // 풀이4
-    
+
+    //sort() 사용
+    points.sort(function(a, b) { return a - b; });// 오름차순
+
+    document.write(`최대값${points[points.length - 1]}<br>`);
+    document.write(`최소값${points[0]}<br>`);
+     
+
+    // 풀이4 - 2      
+    // for문 사용
+    // let max = 0;
+    // let min = Infinity;
+
+    let max = points[0];
+    let min = points[0];
+      
+    for ( const el of points) {
+      // if (max < el) max = el ;
+      // if (min < el) min = el ;
+      max = Math.max(max,el);
+      min = Math.min(min,el);
+    };
+      document.write(`최대값${max}<br>`);
+      document.write(`최소값${min}<br>`);
+      
+      
+   // 풀이4 - 3
+    document.write(`최대값${Math.max(...points)}<br>`);
+    document.write(`최대값${Math.min(...points)}<br>`);
   </script>
+
 </head>
 <body>
   

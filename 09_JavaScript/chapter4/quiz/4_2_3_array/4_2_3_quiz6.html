@@ -13,26 +13,33 @@
 
     // const lottoArr = []; // 빈 배열
     
-    // 풀이6
-    let i = 1;
-    
+    // 풀이6 - 1 
+    //선생님 코드
+    const lottoArr = [];
 
-    while (i < 7) {
-      document.write(Math.floor(Math.random() * 45 ) + 1 , ' ');
-      const lottoArr = [i];
-      
-      if (lottoArr.indexOf[i] !== lottoArr.indexOf[i]) {
-        
-        lottoArr.sort();
-        document.write (lottoArr,' ')
+    while (lottoArr.length < 6) {
+      const rendomNum = Math.floor(Math.random() * 45 ) + 1 ;
+      if (!lottoArr.includes(rendomNum)) {
+        lottoArr.push(rendomNum);
       }
-      i++;
-      
     }
-   
-    
-  
- 
+    document.write (lottoArr,'<br>')
+    document.write (lottoArr.sort(function(a, b) {return a - b}),'<br>')
+
+    // 풀이6 - 2 
+    //for문 사용
+    const lottoArr2 = [];
+
+   for (let i = 0 ; i < 6;){
+    const rendomNum = Math.floor(Math.random() * 45 ) + 1 ;
+      if (!lottoArr2.includes(rendomNum)) {//중복값이 아닐때
+        lottoArr2.push(rendomNum);
+        i++;
+      }
+   }
+   document.write (lottoArr2,'<br>')
+   document.write (lottoArr2.sort(function(a, b) {return a - b}),'<br>')
+
     
   </script>
 </head>

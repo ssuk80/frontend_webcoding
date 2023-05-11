@@ -13,11 +13,23 @@
     const fruits = ['사과', '바나나', '딸기', '포도', '두리안', '파인애플'];
 
     // 풀이3
-    let dislike = prompt('싫어하는 과일은 무엇인가요?','딸기');
-     fruits.splice(dislike,1);
-    //  인덱스를 구해서 넣기
+    const disliked = prompt('싫어하는 과일은 무엇인가요?','딸기');
+    const dislikedIndex = fruits.indexOf(disliked);
+    console.log(dislikedIndex);
+    if(dislikedIndex === -1) {//배열에 없을경우 -1
+      alert (' 제거할 과일이 없습니다.');
+    } else {
+      fruits.splice(dislikedIndex, 1) ;
+    }
 
-    document.write(fruits);
+     document.write(fruits);
+
+    
+
+
+   
+
+
 
   </script>
 </head>
