@@ -14,27 +14,19 @@
     // 예시: 225468을 입력하면 출력은 다음과 같습니다.
     // ['-', '2', '-', '2', '5', '-', '4', '-', '6', '-', '8']
 
-    const str = Number(prompt('숫자를 입력하세요.'),'0');
+    const str = prompt('숫자를 입력하세요.');
     const result = [];
 
-    // for (let i = 0; i < str.length; i++) {
-    //   if( i % 2 === 0 ) {
-    //     document.write (result.splice (0,'-'));
-    //   }
-    // } 
-    // document.write (result)
 
     // 풀이4 -1
-    for (let i = 0; i < str.length; i++) {
-      if(str[i] % 2 === 0 ) {
-        result.push('-');
-      }
-        result.push(str[i]);
-    }
-    console.log(result)
-  
+    // for (let i = 0; i < str.length; i++) {
+    //   if(str[i] % 2 === 0 ) {
+    //     result.push('-');
+    //   }
+    //     result.push(str[i]);
+    // }
+    // console.log(result)
 
-   
 
     // 풀이4-2
     for (const s of str) {
@@ -42,10 +34,11 @@
         result.push('-');
       }
       result.push(s);
-    }
+      }
    
-       console.log(result); 
-       //인덱스를 몰라도 되면 for of 를 씀
+    console.log(result); 
+    //인덱스를 몰라도 되면 for of 를 씀
+    
   </script>
 </head>
 <body>

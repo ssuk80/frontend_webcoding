@@ -16,31 +16,24 @@
     // 이미지 파일(jpg, png, gif)이 맞는지 검사하여
     // 아닐 경우에만 alert() 창을 띄워 경고하기.
 
-    // 샘플 코드
     const imgFileExt = ['jpg', 'png', 'gif'];
     let fileExt;
     const fileInput = document.querySelector('input[type=file]');
-
-
     fileInput.addEventListener('change', function () {
-        if (imgFileExt.indexOf ) {
-      } else {
-        // 'debugger';
-      }
-    console.log(fileInput); //input DOM
-    console.log(fileInput.files);//fileList 객체
-    console.log(fileInput.files[0]);///files 객체가져옴
-    console.log(fileInput.files[0].name);// file name
+      // debugger;
+      console.log(fileInput); // input DOM
+      console.log(fileInput.files); // FileList 객체
+      console.log(fileInput.files[0]); // File 객체
+      console.log(fileInput.files[0].name); // File name
+
+      const fileName = fileInput.files[0].name;//추출한 파일 이름! 예) abc_3.jpg
+      fileExt = fileName.substring(fileName.lastIndexOf('.') + 1);//jpg .부터 1번째 넣기
+      console.log(fileExt);
+
+
     });
-    const fileName = fileInput.files[0].name
-    fileName.substring()
-    // 풀이5
-서브스트림 인덱스
+   
 
-푸시
-뒤에3자기
-
-fileInput.substring()
     
 
 

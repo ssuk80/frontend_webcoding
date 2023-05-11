@@ -18,8 +18,8 @@
     const lottoArr = [];
 
     while (lottoArr.length < 6) {
-      const rendomNum = Math.floor(Math.random() * 45 ) + 1 ;
-      if (!lottoArr.includes(rendomNum)) {
+      const rendomNum = Math.floor(Math.random() * 45 ) + 1 ; //정수를 만들음
+      if (!lottoArr.includes(rendomNum)) {// 중복값이 포함된게 ! 아닐경우 중복값이 아닐때
         lottoArr.push(rendomNum);
       }
     }
