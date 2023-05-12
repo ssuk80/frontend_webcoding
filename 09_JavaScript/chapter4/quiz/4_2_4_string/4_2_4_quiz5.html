@@ -15,27 +15,37 @@
     // 문자열 객체를 이용하여 파일 확장자를 추출해서 fileExt 변수에 저장하고,
     // 이미지 파일(jpg, png, gif)이 맞는지 검사하여
     // 아닐 경우에만 alert() 창을 띄워 경고하기.
+    //첨부된 파일에 변화가 감지되었을때 'change' 이벤트 발생
 
     const imgFileExt = ['jpg', 'png', 'gif'];
     let fileExt;
     const fileInput = document.querySelector('input[type=file]');
     fileInput.addEventListener('change', function () {
       // debugger;
-      console.log(fileInput); // input DOM
-      console.log(fileInput.files); // FileList 객체
-      console.log(fileInput.files[0]); // File 객체
-      console.log(fileInput.files[0].name); // File name
+      console.log(fileInput); // input 태그 보여줌 DOM 
+      console.log(fileInput.files); // FileList 객체 인덱스 , length 
+      console.log(fileInput.files[0]); // File 객체 0번재 
+      console.log(fileInput.files[0].name); // File name,size,type 은 키 중 하나를 가져옴
 
       const fileName = fileInput.files[0].name;//추출한 파일 이름! 예) abc_3.jpg
-      fileExt = fileName.substring(fileName.lastIndexOf('.') + 1);//jpg .부터 1번째 넣기
+      fileExt = fileName.substring(fileName.lastIndexOf('.') + 1).toLowerCase();//jpg .부터 1번째 넣기
       console.log(fileExt);
 
+      if (fileExt !== 'jpg' && fileExt !== 'png' && fileExt !== 'gif' ) {
+          alert('이미지 파일이 아닙니다.');
+        }
+
+      // if (!(fileExt === 'jpg' || fileExt === 'png' || fileExt === 'gif' )) {
+      //   alert('이미지 파일이 아닙니다.');
+      // }
+
+      // if (!imgFileExt.includes(fileExt)) {
+      //   alert('이미지 파일이 아닙니다.');
+      //   }
 
     });
    
-
-    
-
+   
 
 
 
