@@ -16,7 +16,25 @@
 
     // 풀이3
     // printNumners(5,10);5~10까지 1초 간격으로 출력
+
+
+    function printNumbers(from, to) {
+    let num = from;
+    let timer = setInterval(function() {
+      document.write(num);
+      if(num == to) {
+        clearInterval(timer);
+       }
+      num++;
+      }, 1000);      
+    }
+    const relult  = printNumbers(5,10);
+    document.write(relult);
+
+
+
     
+
   </script>
 </head>
 <body>
