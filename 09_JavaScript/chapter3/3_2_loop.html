@@ -41,16 +41,16 @@
 
   //20~10까지 숫자중 짝수일 경우 파란색, 홀수일 경우 빨간색으로 출력
 
-  // i=20;
-  // while (i >= 10) {
-  //   if(i % 2 === 0){
-  //     document.write('<p class="blue">' + i +'</p>');
-  //   }else {
-  //     document.write('<p class="red">'+ i +'</p>');
-  //   }
-  //   i--;
-  // }
-  // document.write ('================<br>');
+  i=20;
+  while (i >= 10) {
+    if(i % 2 === 0){
+      document.write('<p class="blue">' + i +'</p>');
+    }else {
+      document.write('<p class="red">'+ i +'</p>');
+    }
+    i--;
+  }
+  document.write ('================<br>');
 
   //do while 문
   //while문과 차이점 : 무조건 한번은 코드를 실행하고 조건식을 검사
@@ -58,12 +58,12 @@
   //   1.실행코드
   // } while (2.조건식);
 
-  // i = 5;
-  // do {
-  //   document.write('Hello<br>') ;
-  //   i++;
-  // } while (i < 3);
-  //false지만 do에서 한번만 실행함
+  i = 5;
+  do {
+    document.write('Hello<br>') ;
+    i++;
+  } while (i < 3);
+  // false지만 do에서 한번만 실행함
 
 
   // for문 (제일 많이 사용)
@@ -73,38 +73,38 @@
   // 참고로 4번에는 모든 증감식이 올 수 있음(i++, i-- , i = i*10 등)
 
   // 반복1~10까지 10회출력
-  // for (let i = 1; i <= 10 ; i++) {
-  //   document.write('반복' + i , '<br>');
-  //   }
+  for (let i = 1; i <= 10 ; i++) {
+    document.write('반복' + i , '<br>');
+    }
 
   //1~100까지 합
-  // let sum = 0; //중요 :초기값을 반드시 줘야됨, 안주면 undefined 값이라 NaN이 나옴!  
-  // for (let i = 1; i <=100; i++) {
-  //   // sum = sum + i;
-  //   sum += i ;
-  // }
-  // document.write('1부터 100까지의 합' + sum , '<br>');
-  // document.write ('================<br>');
+  let sum = 0; //중요 :초기값을 반드시 줘야됨, 안주면 undefined 값이라 NaN이 나옴!  
+  for (let i = 1; i <=100; i++) {
+    // sum = sum + i;
+    sum += i ;
+  }
+  document.write('1부터 100까지의 합' + sum , '<br>');
+  document.write ('================<br>');
 
   //break문
   //swith문 또는 반복문을 빠져나갈때 사용
   //1~10까지 반복중 i 값이 6일때 강제 종료
-  // for( let i=1 ; i <= 10; i++) {
-  //   if(i === 6) break; 
-  //   document.write( i + '<br>');
-  // }
-  // document.write ('================<br>');
+  for( let i = 1 ; i <= 10; i++) {
+    if(i === 6) break; 
+    document.write( i + '<br>');
+  }
+  document.write ('================<br>');
 
   //contiue문
   //반복문에서만 사용가능
   //뒤에 오는 코드는 무시하고 다음 반복을 계속할 때 사용
 
   // 1~10 까지 홀수만 출력(2의 배수일때는 건너뛰기)
-  // for (i =1 ; i <=10 ; i++) {
-  //   if(i %2 === 0) continue; //건너뛰어서 출력되지 않음!
-  //   document.write( i + '<br>');
-  // }
-  // document.write ('================<br>');
+  for (i =1 ; i <=10 ; i++) {
+    if(i % 2 === 0) continue; //건너뛰어서 출력되지 않음!
+    document.write( i + '<br>');
+  }
+  document.write ('================<br>');
 
   //중첩 for 문
   //for문 안에 for문 사용
@@ -116,17 +116,17 @@
   // }
   
   //3행 2열 구조의 데이터 출력 
-    // for (let i = 1 ; i <=3 ; i++) {
-    //   for (let j= 1 ; j <= 2; j++) {
-    //     document.write(i + '행' + j + '열');
-    //   }
-    //   document.write('<br>');
-    // };
+    for (let i = 1 ; i <=3 ; i++) {
+      for (let j= 1 ; j <= 2; j++) {
+        document.write(i + '행' + j + '열');
+      }
+      document.write('<br>');
+    };
 
 //퀴즈 구구단 출력
-for (let i=2; i <=9 ; i++) {
+for (let i = 2; i <= 9 ; i++) {
   document.write('****' + i + '단 ****'+ '<br>');
-  for (let j=1; j <=9 ; j++){
+  for (let j = 1; j <= 9 ; j++){
     document.write(i +'x' + j + '='+ (i*j) + '<br>');
   }
 }

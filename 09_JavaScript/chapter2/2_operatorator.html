@@ -44,7 +44,7 @@
    document.write (result,'<br>');
 
    result = t1 + 100 + 200 + t4;
-   document.write (result,'<br>');
+   document.write (result,'<br>');//학교종이100200 어서 모이자
 
    result = 100 + 200 + t1 + t2;
    document.write (result,'<br>'); //산술연산하고 문자가오면 문자 결합이 됨 
@@ -228,7 +228,8 @@
   //확인을 누르면 입력값이 취소를 누르면 null을 반환
   document.write ('<h2>실습 홀짝 판별기</h2>');
   const number = prompt('숫자를입력하세요','0');
-  document.write(typeof number , '<br>');
+  document.write(typeof number , '<br>');//string
+  
 
   //Number()를 안써도 연산 시 숫자로 자동 타입 변환이 일어남
   result = Number(number) %2 === 0 ? '짝수' : '홀수';
