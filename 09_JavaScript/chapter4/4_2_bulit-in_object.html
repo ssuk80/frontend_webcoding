@@ -259,7 +259,8 @@
     document.write('<h1>배열에서 숫자 데이터 정렬</h1>');
     const score = [40, 100, 1, 5, 25, 10];
     document.write(score.sort(), '<br>'); // '25'는 '100'보다 크다. 왜냐하면 '2'가 '1'보다 크기 때문
-    document.write(score.sort(function(a, b) { return a - b; }), '<br>');
+    document.write(score.sort(function(a, b) { return a - b; }), '<br>');//오름차순
+    // document.write(score.sort(function(a, b) { return a + b; }), '<br>');//내림차순
     // 반환되는 값이 음수, 양수, 0인지에 따라 정렬이 바뀜
     // 음수가 나오면 a, b순으로
     // 양수가 나오면 b, a순으로
