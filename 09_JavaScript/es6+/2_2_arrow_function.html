@@ -71,6 +71,8 @@
       return num1 + num2;
     }
 
+    // 화살표함수로
+
     const add2 = (num1, num2) => num1 + num2;
     
 
@@ -85,20 +87,20 @@
     //   function(){ alert('동의하셨습니다');},
     //   function(){ alert('취소버튼을 누르셨습니다.');}
     //   );
+    
 
- 
-
+    // 화살표함수로
     const ask2 = (question,yes,no) => {
       if (confirm(question)) yes();
       else no();
     };
+
 
     ask2(
       '동의하십니까?',
       () => alert('동의하셨습니다'),
       () => alert('취소버튼을 누르셨습니다.')
     );
-
 
 
   </script>
