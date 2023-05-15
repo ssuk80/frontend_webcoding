@@ -19,12 +19,12 @@
 
     while (lottoArr.length < 6) {
       const rendomNum = Math.floor(Math.random() * 45 ) + 1 ; //정수를 만들음
-      if (!lottoArr.includes(rendomNum)) {// 중복값이 포함된게 ! 아닐경우 중복값이 아닐때
-        lottoArr.push(rendomNum);
+      if (!lottoArr.includes(rendomNum)) {// 중복값이 포함된게 ! 아닐경우, 중복값이 아닐때만 출력해서 보여줌
+        lottoArr.push(rendomNum);//빈배열에 하나씩 배열을 끝에 6개까지 추가
       }
     }
     document.write (lottoArr,'<br>')
-    document.write (lottoArr.sort(function(a, b) {return a - b}),'<br>')
+    document.write (lottoArr.sort(function(a, b) {return a - b}),'<br>')//오름 차순으로 정렬
 
     // 풀이6 - 2 
     //for문 사용
