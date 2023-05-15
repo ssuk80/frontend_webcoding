@@ -17,21 +17,40 @@
 
 
     // 풀이2
-    let x = Number(prompt('첫번째 숫자를 입력하세요.', 0));
-    let n = Number(prompt('두번째 숫자를 입력하세요.', 0));
+    // let x = Number(prompt('첫번째 숫자를 입력하세요.', 0));
+    // let n = Number(prompt('두번째 숫자를 입력하세요.', 0));
 
+    //   function pow(x,n) {
+    //     if (n >= 1){ 
+    //       parseInt(n);
+    //     } else {
+    //       alert('자연수를 입력하세요!')
+    //     } 
+    //     return Math.pow(x,n);
+    //   }
+    //   const result = pow(x,n);
+    //   document.write(result);
+
+    // 풀이2 선생님 코드
       function pow(x,n) {
-        if (n >= 1){ 
-          parseInt(n);
-        } else {
-          alert('자연수를 입력하세요!')
-        } 
-        return Math.pow(x,n);
+        let relult = x;
+       for (let i = 1; i < n; i++) {
+        result *= x;
+       }
+       return result;
       }
-      const result = pow(x,n);
       document.write(result);
     
-    
+
+      if (n < 1) {
+        alert(`${n}은 양의 정수이어야 합니다`);
+      } else {
+        document.write(pow(x,n));
+      }
+
+      const x = prompt('x?','1');
+      const n = prompt('n?','1');
+
   </script>
 </head>
 <body>

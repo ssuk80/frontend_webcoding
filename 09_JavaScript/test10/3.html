@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+// prompt를 이용하여 아이디를 입력받고 빈 문자가 들어오진 않았는지 유효성 검사를 진행하세요.
+// 조건문을 사용하여 빈 문자가 아닌 값이 들어왔을 때만
+// 입력 받은 아이디와 함께 '님 환영합니다!' 라는 환영 문구를 출력하세요.
+
+    const userid = prompt('아이디를 입력하세요');
+    let check1 = false;
+    
+    if (!(userid.indexOf(' ') > 0)) {
+      check1 = true; 
+      document.write(userid +'님 환영합니다!');
+    }
+    
+  
+
+
+
+
+
+  </script>
+</head>
+<body>
+  
+</body>
+</html>

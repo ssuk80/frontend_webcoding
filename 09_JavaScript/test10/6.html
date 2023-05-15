@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+
+  // 보기와 같이 주어진 파일 이름에서 확장자를 추출하여 출력해보세요.
+  // 추출 결과: pdf
+  // const fileName = '기획서 수정.최종본.진짜마지막.PDF';
+
+  const fileName = '기획서 수정.최종본.진짜마지막.PDF';
+  const result = fileName.substring(fileName.lastIndexOf('.') + 1).toUpperCase();
+  document.write(result);
+
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
